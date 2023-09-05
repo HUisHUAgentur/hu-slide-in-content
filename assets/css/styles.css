@@ -1,0 +1,13 @@
+.hsic-is-slide-in-content {
+  opacity: 0;
+  transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  transform: translateX(50%);
+}
+.hsic-is-slide-in-content.hsic-slides-in-from-left {
+  transform: translateX(-50%);
+}
+.hsic-is-slide-in-content.hsic-show {
+  opacity: 1;
+  transform: translateX(0);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBQTtFQUNBLGdFQUFBO0VBQ0EsV0FBVyxlQUFYOztBQUNBLHlCQUFDO0VBQ0csV0FBVyxnQkFBWDs7QUFFSix5QkFBQztFQUNHLFVBQUE7RUFDQSxXQUFXLGFBQVgifQ== */

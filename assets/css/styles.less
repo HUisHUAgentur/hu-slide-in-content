@@ -1,0 +1,12 @@
+.hsic-is-slide-in-content {
+    opacity: 0;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    transform: translateX(50%);
+    &.hsic-slides-in-from-left {
+        transform: translateX(-50%)
+    }
+    &.hsic-show {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
